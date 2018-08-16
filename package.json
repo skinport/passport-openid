@@ -1,6 +1,6 @@
 {
-  "name": "passport-openid",
-  "version": "0.4.0",
+  "name": "@passport-next/passport-openid",
+  "version": "1.0.0",
   "description": "OpenID authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -12,15 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-openid.git"
+    "url": "git://github.com/passport-next/passport-openid.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-openid/issues"
+    "url": "http://github.com/passport-next/passport-openid/issues"
   },
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Rowan Wookey",
+    "email": "admin@rwky.net"
   },
   "licenses": [
     {
@@ -30,16 +29,16 @@
   ],
   "main": "./lib/passport-openid",
   "dependencies": {
-    "passport-strategy": "1.x.x",
-    "openid": "1.x.x"
+    "@passport-next/passport-strategy": "1.x.x",
+    "openid": "2.x.x"
   },
   "devDependencies": {
-    "vows": "^0.8.1"
+    "vows": "0.8.x"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js test/**/*-test.js"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">=6"
   }
 }

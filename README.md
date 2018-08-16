@@ -1,6 +1,6 @@
 # Passport-OpenID
 
-[Passport](https://github.com/jaredhanson/passport) strategy for authenticating
+[Passport](https://github.com/passport-next/passport) strategy for authenticating
 with [OpenID](http://openid.net/).
 
 This module lets you authenticate using OpenID in your Node.js applications.  By
@@ -9,9 +9,17 @@ integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
 [Express](http://expressjs.com/).
 
+[![NPM version](https://img.shields.io/npm/v/@passport-next/passport-openid.svg)](https://www.npmjs.com/package/@passport-next/passport-openid)
+[![Build Status](https://travis-ci.org/passport-next/passport-openid.svg?branch=master)](https://travis-ci.org/passport-next/passport-openid)
+[![Coverage Status](https://coveralls.io/repos/github/passport-next/passport-openid/badge.svg?branch=master)](https://coveralls.io/github/passport-next/passport-openid?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f278170402b42c88db23/maintainability)](https://codeclimate.com/github/passport-next/passport-openid/maintainability)
+[![Dependencies](https://david-dm.org/passport-next/passport-openid.png)](https://david-dm.org/passport-next/passport-openid)
+<!--[![SAST](https://gitlab.com/passport-next/passport-openid/badges/master/build.svg)](https://gitlab.com/passport-next/passport-openid/badges/master/build.svg)-->
+
+
 ## Install
 
-    $ npm install passport-openid
+    $ npm install @passport-next/passport-openid
 
 ## Usage
 
@@ -76,37 +84,10 @@ registering functions with `saveAssociation` and `loadAssociation`.
 
 ## Examples
 
-For a complete, working example, refer to the [signon example](https://github.com/jaredhanson/passport-openid/tree/master/examples/signon).
-
-## Strategies using OpenID
-
-<table>
-  <thead>
-    <tr><th>Strategy</th></tr>
-  </thead>
-  <tbody>
-     <tr><td><a href="https://github.com/rajaraodv/passport-cloudfoundry-openidconnect">Cloud Foundry UAA (OpenID Connect)</a></td></tr>
-    <tr><td><a href="https://github.com/jaredhanson/passport-google">Google</a></td></tr>
-    <tr><td><a href="https://github.com/liamcurry/passport-steam">Steam</a></td></tr>
-    <tr><td><a href="https://github.com/jaredhanson/passport-yahoo">Yahoo!</a></td></tr>
-  </tbody>
-</table>
+For a complete, working example, refer to the [signon example](https://github.com/passport-next/passport-openid/tree/master/examples/signon).
 
 ## Tests
 
     $ npm install --dev
     $ make test
 
-[![Build Status](https://secure.travis-ci.org/jaredhanson/passport-openid.png)](http://travis-ci.org/jaredhanson/passport-openid)
-
-## Credits
-
-  - [Jared Hanson](http://github.com/jaredhanson)
-
-## License
-
-[The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2011-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-openid'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-openid.svg' /></a>
